@@ -30,3 +30,21 @@ const movie = [
     type: "movie",
     },
 ];
+
+class Movie {
+    title;
+    year;
+    genre;
+    rating;
+    type;
+  
+    constructor(title, year, genre, rating, type) {
+      // usiamo i setter marca e anno per validare i dati in ingresso
+      this.title = title;
+      this.year = year;
+      this.genre = genre;
+      this.rating = rating;
+      this.type = type;
+    }
+  }
+  
