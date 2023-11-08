@@ -47,4 +47,14 @@ class Movie {
       this.type = type;
     }
   }
+
+class TvSeries extends Movie {
+    seasons;
+     
+    constructor(title, year, genre, rating, type, seasons) {
+      // super invoca il costruttore della classe padre
+      super(title, year, genre, rating, type);
   
+      this.seasons = seasons;
+    }
+}
